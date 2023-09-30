@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-void main() {
-  runApp(
-      Audio_Player()); //Everytime the App starts the aodio** class will be called
-}
+void main() => runApp(Audio_Player()); //Everytime the App starts the aodio** class will be called
 
 class Audio_Player extends StatelessWidget {
   const Audio_Player({super.key});
